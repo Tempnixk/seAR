@@ -60,13 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				7128FAE128BA46AC00A94286 /* AppDelegate.swift */,
+				71FAA52528BF54F80012F6FA /* GameViewController.swift */,
+				71FAA52128BF54EE0012F6FA /* GameScene.swift */,
+				71FAA52728BF54FE0012F6FA /* Main.storyboard */,
 				71FAA52F28BF550E0012F6FA /* GameScene.sks */,
 				71FAA52B28BF55090012F6FA /* LaunchScreen.storyboard */,
 				71FAA52928BF55030012F6FA /* Assets.xcassets */,
-				71FAA52128BF54EE0012F6FA /* GameScene.swift */,
 				71FAA52328BF54F40012F6FA /* Player.swift */,
-				71FAA52528BF54F80012F6FA /* GameViewController.swift */,
-				71FAA52728BF54FE0012F6FA /* Main.storyboard */,
 			);
 			path = seAR;
 			sourceTree = "<group>";

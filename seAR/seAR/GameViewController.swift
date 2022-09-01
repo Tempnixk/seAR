@@ -96,11 +96,11 @@ class GameViewController: UIViewController, ARSessionDelegate {
         
         if closedEye == true {
             // 이 부분을 이제 종료 후 새로운 뷰로 넘어가게끔
-            gameScene.updatePlayer(state: .close)
+            gameScene.updatePlayer(state: .open)
             
         } else {
             //이 부분은 계속 진행이 되면서 시간 측정을 하게끔
-            gameScene.updatePlayer(state: .open)
+            gameScene.updatePlayer(state: .close)
             
         }
         
