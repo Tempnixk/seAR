@@ -76,6 +76,7 @@ class GameViewController: UIViewController, ARSessionDelegate {
     }
     
     
+    // 눈 깜빡임 인식
     func update(withFaceAnchor faceAnchor: ARFaceAnchor) {
         var blendShapes:[ARFaceAnchor.BlendShapeLocation:Any] = faceAnchor.blendShapes
         var closedEye: Bool = false

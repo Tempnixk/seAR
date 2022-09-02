@@ -13,7 +13,7 @@ enum PlayerState:String {
     case open = "Open"
 }
 
+// init
 class Player: SKSpriteNode {
 
-    
 }

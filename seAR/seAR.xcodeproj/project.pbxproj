@@ -15,6 +15,7 @@
 		71FAA52A28BF55030012F6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FAA52928BF55030012F6FA /* Assets.xcassets */; };
 		71FAA52C28BF55090012F6FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FAA52B28BF55090012F6FA /* LaunchScreen.storyboard */; };
 		71FAA53028BF550E0012F6FA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 71FAA52F28BF550E0012F6FA /* GameScene.sks */; };
+		71FAA53228C094C70012F6FA /* CountdownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FAA53128C094C70012F6FA /* CountdownLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		71FAA52928BF55030012F6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Documents/FaceTrackingGame/FaceRun/Assets.xcassets; sourceTree = "<group>"; };
 		71FAA52B28BF55090012F6FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71FAA52F28BF550E0012F6FA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		71FAA53128C094C70012F6FA /* CountdownLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +64,12 @@
 				7128FAE128BA46AC00A94286 /* AppDelegate.swift */,
 				71FAA52528BF54F80012F6FA /* GameViewController.swift */,
 				71FAA52128BF54EE0012F6FA /* GameScene.swift */,
+				71FAA52328BF54F40012F6FA /* Player.swift */,
 				71FAA52728BF54FE0012F6FA /* Main.storyboard */,
 				71FAA52F28BF550E0012F6FA /* GameScene.sks */,
 				71FAA52B28BF55090012F6FA /* LaunchScreen.storyboard */,
 				71FAA52928BF55030012F6FA /* Assets.xcassets */,
-				71FAA52328BF54F40012F6FA /* Player.swift */,
+				71FAA53128C094C70012F6FA /* CountdownLabel.swift */,
 			);
 			path = seAR;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				71FAA52428BF54F40012F6FA /* Player.swift in Sources */,
 				71FAA52228BF54EE0012F6FA /* GameScene.swift in Sources */,
 				7128FAE228BA46AC00A94286 /* AppDelegate.swift in Sources */,
+				71FAA53228C094C70012F6FA /* CountdownLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
